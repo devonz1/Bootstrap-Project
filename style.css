@@ -1,15 +1,10 @@
-.red-text {
-    color: burlywood;
-  }
+ 
 
   h2 {
     font-family: Lobster, Monospace;
   }
 
-  p {
-    font-size: 16px;
-    font-family: Monospace;
-  }
+  
 
   .thick-white-border {
     border-color: rgb(245, 216, 179);
@@ -18,6 +13,4 @@
     border-radius: 50%;
   }
 
-  .smaller-image {
-    width: 100px;
-  }
+ 

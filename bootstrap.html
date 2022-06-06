@@ -6,22 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
 
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-    
+      <!---this is the google font link for the title-->
     
     <div class="container-fluid">
-      <h2 class="red-text">Lion Photo App</h2>
+        <div class="row">
+            <div class="col-xs-8">
+      <h2 class="text-warning text-center">Lion Photo App</h2>
+      <!--THE CONTAINER fluid is to help the webpage size
+    be able to fully adjust to either a mobile screen or desktop-->
+     </div>
+           <div class="col-xs-4">
+      <a href="#"><img class="img-responsive thick-white-border" src="C:\Users\devon\Downloads\lion-cub-3460498_1280.jpg" alt="cute lion cub"></a>
+      </div>
+      </div>
+       <img src="C:\Users\devon\Downloads\istockphoto-484433535-612x612.jpg"  class="img-responsive" alt="three lion cubs together">
     
-      <p>Click here for <a href="#">Lion photos</a>.</p>
-    
-      <a href="#"><img class="smaller-image thick-white-border" src="C:\Users\devon\Downloads\lion-cub-3460498_1280.jpg" alt="cute lion cub"></a>
-    
-      <img src="C:\Users\devon\Downloads\istockphoto-484433535-612x612.jpg"  class="img-responsive" alt="three lion cubs together">
-      <p>Fun Facts About Lions:</p>
+    <div class="row"> <!---this div places all the buttons in
+         the same row side by side with each other -->
+        <div class="col-xs-4"> <!---this bootstrap element 
+        is to tell the div how many columns wide the button 
+    should be so its (xs) xtra small and 4 is how many columns wide
+       the element should be in this case the button-->
+      <button class="btn btn-primary btn-block">
+        <i class="fas fa-thumbs-up"> Like</button></i>
+        </div>
+          <div class="col-xs-4">
+      <button class="btn btn-info btn-block">
+        <i class="fas fa-info-circle"></i>Info</button>
+      </div>
+        <div class="col-xs-4"> 
+      <button class="btn btn-block btn-danger">
+        <i class="fas fa-trash"></i>Delete</button>
+      </div>
+      </div> <!--<<<<<this is the end of the row <div>-->
+     
+        <p>Fun Facts About Lions:</p>
+       
       <ul>
         <li>A lions Roar can be Heard 8 Kilometers Away </li>
         <li>Lions are the only Cats that Live in Groups</li>
@@ -30,14 +56,29 @@
       </ul>
        
       <form action="https://freecatphotoapp.com/submit-lion-photo">
+        <div class="row">
+            <div class="col-xs-6">
         <label><input type="radio" name="indoor-outdoor"> Indoor</label>
-        <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+           </div>
+           <div class="col-xs-6">
+           <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+             </div>
+        </div>
+        <div class="row">
+            <div clas="col-xs-4">
         <label><input type="checkbox" name="personality"> Loving</label>
-        <label><input type="checkbox" name="personality"> Lazy</label>
+           </div>
+               <div class="col-xs-4">
+           <label><input type="checkbox" name="personality"> Lazy</label>
+               </div>
+               <div class="col-xs-4"> 
         <label><input type="checkbox" name="personality"> Bold</label>
+             </div>
+         </div>
         <input type="text" placeholder="Lion photo URL" required>
         <button type="submit">Submit</button>
-      </form>
+      
+    </form>
     </div>
 
 
