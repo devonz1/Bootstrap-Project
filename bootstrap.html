@@ -1,93 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <title>Document</title>
 </head>
+
 <body>
 
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-      <!---this is the google font link for the title-->
-    
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xs-8">
-      <h2 class="text-warning text-center">Lion Photo App</h2>
-      <!--THE CONTAINER fluid is to help the webpage size
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <!---this is the google font link for the title-->
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-8">
+        <h2 class="text-warning text-center">Lion Photo App</h2>
+        <!--THE CONTAINER fluid is to help the webpage size
     be able to fully adjust to either a mobile screen or desktop-->
-     </div>
-           <div class="col-xs-4">
-      <a href="#"><img class="img-responsive thick-white-border" src="C:\Users\devon\Downloads\lion-cub-3460498_1280.jpg" alt="cute lion cub"></a>
       </div>
+      <div class="col-xs-4">
+        <a href="#"><img class="img-responsive thick-white-border">
       </div>
-       <img src="C:\Users\devon\Downloads\istockphoto-484433535-612x612.jpg"  class="img-responsive" alt="three lion cubs together">
-    
-    <div class="row"> <!---this div places all the buttons in
+    </div>
+    <img src="C:\Users\devon\Downloads\main-qimg-335b3ef18f7d8b4345468d2a22ec548d-lq.jpg" class="img-responsive"
+      alt="two lion cubs together">
+
+    <div class="row">
+      <!---this div places all the buttons in
          the same row side by side with each other -->
-        <div class="col-xs-4"> <!---this bootstrap element 
+      <div class="col-xs-4">
+        <!---this bootstrap element 
         is to tell the div how many columns wide the button 
     should be so its (xs) xtra small and 4 is how many columns wide
        the element should be in this case the button-->
-      <button class="btn btn-primary btn-block">
-        <i class="fas fa-thumbs-up"> Like</button></i>
-        </div>
-          <div class="col-xs-4">
-      <button class="btn btn-info btn-block">
-        <i class="fas fa-info-circle"></i>Info</button>
+        <button class="btn btn-primary btn-block">
+          <i class="fas fa-thumbs-up"> Like</button></i>
       </div>
-        <div class="col-xs-4"> 
-      <button class="btn btn-block btn-danger">
-        <i class="fas fa-trash"></i>Delete</button>
+      <div class="col-xs-4">
+        <button class="btn btn-info btn-block">
+          <i class="fas fa-info-circle"></i>Info</button>
       </div>
-      </div> <!--<<<<<this is the end of the row <div>-->
-     
-        <p>Fun Facts About Lions:</p>
-       
-      <ul>
-        <li>A lions Roar can be Heard 8 Kilometers Away </li>
-        <li>Lions are the only Cats that Live in Groups</li>
-        <li> Lions can Sleep up to 20 hours a Day</li>
-        <li>Lions can Sprint up to 50mph and leap up to 36 feet</li>
-      </ul>
-       
-      <form action="https://freecatphotoapp.com/submit-lion-photo">
-        <div class="row">
-            <div class="col-xs-6">
-        <label><input type="radio" name="indoor-outdoor"> Indoor</label>
-           </div>
-           <div class="col-xs-6">
-           <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
-             </div>
-        </div>
-        <div class="row">
-            <div clas="col-xs-4">
-        <label><input type="checkbox" name="personality"> Loving</label>
-           </div>
-               <div class="col-xs-4">
-           <label><input type="checkbox" name="personality"> Lazy</label>
-               </div>
-               <div class="col-xs-4"> 
-        <label><input type="checkbox" name="personality"> Bold</label>
-             </div>
-         </div>
-         <div class="row">
-             <div class="col-xs-7">
-        <input class="form-control" type="text" placeholder="Lion photo URL" required>
-          </div>
-          <div class="col-xs-5"> 
-        <button class="btn btn-primary" type="submit">
-            <i class="fa fa-paper-plane"></i>Submit</button>
-            </div>
-        </div>
-    </form>
+      <div class="col-xs-4">
+        <button class="btn btn-block btn-danger">
+          <i class="fas fa-trash"></i>Delete</button>
+      </div>
     </div>
+    <!--<<<<<this is the end of the row <div>-->
+
+    <p>Fun Facts About Lions:</p>
+
+    <ul>
+      <li>A lions Roar can be Heard 8 Kilometers Away </li>
+      <li>Lions are the only Cats that Live in Groups</li>
+      <li> Lions can Sleep up to 20 hours a Day</li>
+      <li>Lions can Sprint up to 50mph and leap up to 36 feet</li>
+    </ul>
+
+    <form action="C:/Users/devon/Downloads/main-qimg-335b3ef18f7d8b4345468d2a22ec548d-lq.jpg">
+      <div class="row">
+        <div class="col-xs-6">
+          <label><input type="radio" name="indoor-outdoor"> Indoor</label>
+        </div>
+        <div class="col-xs-6">
+          <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+        </div>
+      </div>
+      <div class="row">
+        <div clas="col-xs-4">
+          <label><input type="checkbox" name="personality"> Loving</label>
+        </div>
+        <div class="col-xs-4">
+          <label><input type="checkbox" name="personality"> Lazy</label>
+        </div>
+        <div class="col-xs-4">
+          <label><input type="checkbox" name="personality"> Bold</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-7">
+          <input class="form-control" type="text" placeholder="Lion photo URL" required>
+        </div>
+        <div class="col-xs-5">
+          <button class="btn btn-primary" type="submit">
+            <i class="fa fa-paper-plane"></i>Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
 
 
-    
+
 </body>
+
 </html>
